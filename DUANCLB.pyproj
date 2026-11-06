@@ -25,6 +25,24 @@
     <Compile Include="app_core.py" />
     <Compile Include="database.py" />
     <Compile Include="DUANCLB.py" />
+    <Compile Include="server.py" />
+    <Compile Include="app.py" />
+    <Compile Include="flet_app.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\" />
+    <Folder Include="static\css\" />
+    <Folder Include="static\js\" />
+    <Folder Include="templates\" />
+    <Folder Include="models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DATADA.sql" />
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\css\style.css" />
+    <Content Include="static\js\app.js" />
+    <Content Include="templates\index.html" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.11" />
