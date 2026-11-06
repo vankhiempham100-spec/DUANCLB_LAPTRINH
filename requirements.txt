@@ -1,0 +1,24 @@
+# ==============================================================================
+# SMART HSE VISION - CORE DEPENDENCIES
+# ==============================================================================
+
+# Web Framework & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Computer Vision & Deep Learning
+opencv-python>=4.8.0
+ultralytics>=8.2.0
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Database & Data Processing
+pyodbc>=5.1.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Cross-platform Desktop/Mobile App (Optional)
+flet>=0.23.0

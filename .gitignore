@@ -1,0 +1,47 @@
+# ==============================================================================
+# SMART HSE VISION - GITIGNORE CONFIGURATION
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor specific files
+.vscode/
+.vs/
+*.pyproj.user
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary violation snapshots & dynamic logs (keep folders via .gitkeep)
+violations/*
+!violations/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Excel export outputs
+*.xlsx
+!templates/*.xlsx
+
+# Duplicate nested subfolder backup
+DUANCLB/
