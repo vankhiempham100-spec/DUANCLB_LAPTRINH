@@ -34,3 +34,4 @@ echo.
 cd /d "%~dp0"
 "C:\Users\phamv\AppData\Local\Programs\Python\Python311\python.exe" app_core.py
 pause
+
